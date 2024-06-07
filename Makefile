@@ -1,0 +1,15 @@
+r32tob: r32tob.o
+
+test:
+	./r32tob 0x0
+	./r32tob 0x1
+	./r32tob 0x2
+	./r32tob 0x4
+	./r32tob 0x8
+	./r32tob 0x10
+	./r32tob 0xFF
+	./r32tob 0xffffffff
+	./r32tob 0x80000000
+	./r32tob 0x40000000
+	./r32tob 0x20000000
+	./r32tob 0x10000000
